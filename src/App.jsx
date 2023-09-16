@@ -2,16 +2,18 @@ import './App.css'
 
 function App() {
   return (
-    <>
-      <h1>Welcome to React</h1>
-      <form className='form'>
-        <label>
-          Put the movie name
+    <div className='page'>
+      <header>
+        <h1>Movies Searching..</h1>
+        <form className='form'>
           <input placeholder='Avenger, Star Wars, The Matrix...' />
           <button type='submit'>Find</button>
-        </label>
-      </form>
-    </>
+        </form>
+        </header>
+      <body>
+        Movie lists
+      </body>
+    </div>
   )
 }
 
